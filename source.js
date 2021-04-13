@@ -13,8 +13,9 @@ let truncateString = function(str,num)
         return str;
     }
 
-    return str.slice(0,num)+"Hoje está um lindo dia";
+    return str.slice(0,num)+'...';
     
 }
-    truncateString("Hoje está um lindo dia",22);
-    truncateString("Hoje está um lindo dia",10);
+document.write(truncateString("Hoje está um lindo dia",22));
+
+document.write(truncateString("Hoje está um lindo dia",10));
