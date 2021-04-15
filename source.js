@@ -36,4 +36,4 @@ let titleCase = function(str)
 
 }
  
-document.write(titleCase("hoje está muito sol"));
+document.write(titleCase("hoje está um dia muito bacano"));
