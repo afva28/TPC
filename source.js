@@ -34,6 +34,6 @@ let titleCase = function(str)
 
     return splitStr.join(' '); 
 
- }
+}
  
- document.write(titleCase("hoje está muito sol"));
+document.write(titleCase("hoje está muito sol"));
